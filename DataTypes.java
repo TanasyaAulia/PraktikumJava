@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 public class DataTypes{
  public static void main(String[]args){
 
@@ -9,7 +11,6 @@ public class DataTypes{
   char nilaiAbjad = 'A';
   boolean cantik = true;
 
-
   System.out.println ("------------- OUTPUT -------------");
   System.out.println ("Nama Depan : " + namaDepan);
   System.out.println ("Nama Belakang : " + namaBelakang);
@@ -19,5 +20,7 @@ public class DataTypes{
   System.out.println ("Nilai PBO : " + nilaiAbjad);
   System.out.println ("Cantik : " + cantik);
 
- }
+  JOptionPane.showMessageDialog(null, "Hai, " + namaDepan + namaBelakang);
+
+  }
 }
